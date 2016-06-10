@@ -2,8 +2,8 @@
   "name": "cssrgb",
   "version": "0.0.2",
   "description": "Generates a list of RGB colors on a CSS file and provides CSV output",
-  "main": "get_rgb",
-  "bin": {"cssrgb": "cssrgb"},
+  "main": "cssrgb.js",
+  "bin": "cssrgb.js",
   "dependencies": {
     "fs": "0.0.2",
     "hex-rgb": "1.0.0",
@@ -23,5 +23,13 @@
     "csv"
   ],
   "author": "Mauricio Wolff <eu@mauriciowolff.com> (http://mauriciowolff.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitbonsai/cssrgb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitbonsai/cssrgb/issues"
+  },
+  "homepage": "https://github.com/bitbonsai/cssrgb#readme"
 }
