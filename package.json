@@ -1,0 +1,27 @@
+{
+  "name": "cssrgb",
+  "version": "0.0.2",
+  "description": "Generates a list of RGB colors on a CSS file and provides CSV output",
+  "main": "get_rgb",
+  "bin": {"cssrgb": "cssrgb"},
+  "dependencies": {
+    "fs": "0.0.2",
+    "hex-rgb": "1.0.0",
+    "minimist-argv": "1.0.0",
+    "parker": "0.0.10",
+    "request": "2.72.0",
+    "ya-csv": "0.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "colors",
+    "rgb",
+    "csv"
+  ],
+  "author": "Mauricio Wolff <eu@mauriciowolff.com> (http://mauriciowolff.com)",
+  "license": "MIT"
+}
