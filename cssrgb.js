@@ -9,7 +9,7 @@ var request = require('request');
 var csv = require('ya-csv');
 
 if (argv['_'].length < 1) {
-	console.log('\nERROR: Provide at least 1 css URL to the prompt\nie: get_rgb http://example.com/url_of_css_file.css\n')
+	console.log('\nERROR: Provide at least 1 css URL to the prompt\nie: cssrgb http://example.com/url_of_css_file.css\n')
 	process.exit();
 }
 
