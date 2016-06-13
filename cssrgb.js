@@ -19,7 +19,7 @@ init(argv['_']);
 
 
 // functions where the magic happens
-init(css_urls) {
+function init(css_urls) {
 	css_urls.forEach(function (css_url) {
 
 		// Create csv filename that will be used for this css url
