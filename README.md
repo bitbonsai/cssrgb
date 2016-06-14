@@ -30,7 +30,7 @@ cssrgb http://your-domain.com/css/yourcss.css [http://your-domain.com/css/anothe
 
 This output is used to generate color charts by RGB proximity, like this:
 
-![Color bar](http://i.imgur.com/RBESkzI.png?1)
+![Color bar](http://i.imgur.com/31sTRiP.png)
 
 This is the first step of this project, next iteration will be to generate html output with this proximity algorithm, instead of only `csv`
 
